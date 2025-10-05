@@ -1,0 +1,22 @@
+[project]
+name = "judgelet"
+version = "0.1.0"
+description = "Microservice for checking coding problem submissions"
+authors = [
+    {name = "Kirill Diduk",email = "kirill.diduk@gmail.com"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "redis (>=6.4)"
+]
+
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
