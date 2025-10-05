@@ -13,8 +13,8 @@ dependencies = [
 ]
 
 
-[tool.poetry]
-package-mode = false
+[project.scripts]
+judgelet-worker = "judgelet.worker.__main__:main"
 
 
 [build-system]
